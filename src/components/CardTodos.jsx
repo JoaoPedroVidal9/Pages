@@ -23,8 +23,7 @@ function CardTodo() {
                 <Card>
                     <CardContent key={todo.id}>
                         <h1>To Do {todo.id}</h1>
-                        <Typography>{todo.title}</Typography>                        
-                        <Typography>{todo.completed}</Typography>
+                        <Typography>{todo.title}</Typography>
                     </CardContent>
                 </Card>
             ))}
